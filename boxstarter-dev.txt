@@ -1,50 +1,26 @@
 Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Enable-RemoteDesktop
 Install-WindowsUpdate -AcceptEula
 
 cinst googlechrome
 cinst 7zip
 cinst notepadplusplus
-cinst adobereader
 cinst git
 cinst autohotkey
-cinst poshgit
-cinst ccleaner
-cinst skype
 cinst filezilla
 cinst dropbox
-cinst virtualbox
 cinst paint.net
 cinst teamviewer
-cinst itunes
 cinst tortoisegit
-cinst vagrant
 cinst resharper-platform
-cinst cmder
-cinst putty
-cinst github
 cinst linqpad
 cinst nugetpackageexplorer
-cinst webpi
-cinst 1password
-cinst mremoteng
-cinst visualstudio2015community --execution-timeout=10000
-cinst ditto
 cinst slack
 cinst jing
-cinst clickie
-cinst vlc
 cinst screentogif
-cinst checksum
 cinst microsoftazurestorageexplorer
 cinst hosts.editor
-cinst ssdt15
-cinst azuredatafactorytools15
-cinst jbs
 cinst procmon
 cinst procexp
-
-cinst IIS-WebServerRole -source windowsfeatures
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe"
