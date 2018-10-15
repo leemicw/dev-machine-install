@@ -20,6 +20,7 @@ cinst microsoftazurestorageexplorer
 cinst hosts.editor
 cinst procmon
 cinst procexp
+cinst sql-server-management-studio
 
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
 
