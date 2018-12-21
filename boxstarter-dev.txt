@@ -2,21 +2,14 @@ Set-ExplorerOptions -showHiddenFilesFoldersDrives -showProtectedOSFiles -showFil
 Install-WindowsUpdate -AcceptEula
 
 cinst googlechrome
-cinst 7zip
 cinst notepadplusplus --x86
 cinst git
 cinst autohotkey
 cinst filezilla
-cinst dropbox
 cinst paint.net
-cinst teamviewer
-cinst tortoisegit
 cinst linqpad
-cinst nugetpackageexplorer
 cinst slack
-cinst jing
 cinst screentogif
-cinst microsoftazurestorageexplorer
 cinst hosts.editor
 cinst fiddler
 cinst procmon
